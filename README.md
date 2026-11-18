@@ -2,7 +2,7 @@
 
 # 🍬 Pico Poetry
 
-**Petiscos de poesia, em pixel.** 98 poemas do Peter Mac num site em estilo PICO-8: abre numa poesia aleatória, tem índice com busca e vira uma imagem rosa pixelada para compartilhar.
+**Petiscos de poesia, em pixel.** 96 poemas do Peter Mac num site em estilo PICO-8: abre numa poesia aleatória, tem índice com busca e vira uma imagem rosa pixelada para compartilhar.
 
 [![Abrir o site](https://img.shields.io/badge/%E2%96%B6%20abrir-pico--poetry.vercel.app-ff77a8?style=for-the-badge&labelColor=000)](https://pico-poetry.vercel.app)
 
@@ -48,7 +48,7 @@ python3 -m http.server 8765   # ou qualquer servidor estático
 | `index.html` | estrutura, meta tags, Open Graph e JSON-LD |
 | `style.css` | visual PICO-8, tela de celular e de computador (quebra em 900px) |
 | `app.js` | sorteio sem repetição, índice, ajuste automático de fonte, desenho do cartão no `<canvas>` e compartilhamento |
-| `poems.js` | as 98 poesias |
+| `poems.js` | as 96 poesias |
 | `fonts/` | Press Start 2P e VT323, hospedadas aqui mesmo |
 | `llms.txt`, `sitemap.xml`, `robots.txt` | para buscadores e assistentes de IA |
 

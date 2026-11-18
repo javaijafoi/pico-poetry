@@ -60,7 +60,7 @@ function wrap(text, font, maxW) {
   text.split('\n').forEach(line => {
     if (!line.trim()) { out.push(''); return; }
     if (cx.measureText(line).width <= maxW) { out.push(line); return; }
-    let l = ''; line.split(' ').forEach(w => { const t = l ? l + ' ' + w : w; if (cx.measureText(t).width > maxW && l) { out.push(l); l = w; } else l = t; }); if (l) out.push(l);
+    let l = ''; const lead = line.match(/^ */)[0], tk = line.trimStart().split(' '); tk[0] = lead + tk[0]; tk.forEach(w => { const t = l ? l + ' ' + w : w; if (cx.measureText(t).width > maxW && l) { out.push(l); l = w; } else l = t; }); if (l) out.push(l);
   });
   return out;
 }
