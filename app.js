@@ -20,7 +20,7 @@ function show(n, push = true) {
   const p = byN(n);
   $('num').textContent = pad(n) + '/' + pad(N);
   const t = $('title'); t.textContent = p.t; t.hidden = !p.h;
-  const b = $('body'); b.textContent = p.b; b.classList.toggle('long', p.b.length > 260);
+  const b = $('body'); b.textContent = p.b; b.classList.toggle('long', p.b.length > 260); b.classList.toggle('pre', /(^|\n) {3,}\S/.test(p.b));
   $('poem').scrollTop = 0; fit();
   document.title = (p.h ? p.t + ' · ' : '') + 'Pico Poetry';
   try { history.replaceState(null, '', '#' + n); } catch(e){}
@@ -35,7 +35,7 @@ function back() { if (hist.length) show(hist.pop(), false); }
 function fit() {
   const b = $('body'), box = $('poem'); b.style.fontSize = '';
   const base = parseFloat(getComputedStyle(b).fontSize); let f = base;
-  while (box.scrollHeight > box.clientHeight + 1 && f > 22) { f -= 2; b.style.fontSize = f + 'px'; }
+  while ((box.scrollHeight > box.clientHeight + 1 || (b.classList.contains('pre') && b.scrollWidth > b.clientWidth + 1)) && f > 14) { f -= 2; b.style.fontSize = f + 'px'; }
 }
 addEventListener('resize', fit);
 document.fonts && document.fonts.ready.then(fit);
