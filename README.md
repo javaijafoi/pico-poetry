@@ -4,7 +4,7 @@
 
 **Petiscos de poesia, em pixel.** 96 poemas do Peter Mac num site em estilo PICO-8: abre numa poesia aleatória, tem índice com busca e vira uma imagem rosa pixelada para compartilhar.
 
-[![Abrir o site](https://img.shields.io/badge/%E2%96%B6%20abrir-pico--poetry.vercel.app-ff77a8?style=for-the-badge&labelColor=000)](https://pico-poetry.vercel.app)
+[![Abrir o site](https://img.shields.io/badge/%E2%96%B6%20abrir-pico--poetry.vercel.app-ff77a8?style=for-the-badge&labelColor=000)](https://poesia.javaijafoi.dev)
 
 ![HTML](https://img.shields.io/badge/HTML-CSS-JS-000?style=flat-square&logo=html5&logoColor=ff77a8)
 ![sem build](https://img.shields.io/badge/build-nenhum-ff77a8?style=flat-square&labelColor=000)
@@ -24,7 +24,7 @@
 - **ÍNDICE com busca:** gaveta no celular, coluna fixa no computador.
 - **ENVIAR:** gera uma imagem 1080×1350 com a poesia, o nome do site pequeno embaixo e moldura pixelada. No celular abre o compartilhar nativo; no computador baixa o PNG.
 - **CORES:** antes de enviar dá para trocar fundo e texto (presets ROSA, CARTUCHO, NOITE, SOL, PAPEL e LCD, ou qualquer cor da paleta PICO-8). O painel esconde de novo e a escolha fica guardada no navegador.
-- **Link direto:** `https://pico-poetry.vercel.app/#7` abre a poesia 7.
+- **Link direto:** `https://poesia.javaijafoi.dev/#7` abre a poesia 7.
 
 <div align="center">
 <img src="docs/img/cartao.png" alt="Cartão de compartilhamento gerado pelo site" width="360">
@@ -56,7 +56,7 @@ Sem backend, sem cadastro e sem rastreamento. A única coisa gravada é a cor es
 
 ## 🔗 Do mesmo autor
 
-- 🌴 [Portfólio do Peter](https://javaijafoi.vercel.app): todos os projetos num lugar só
+- 🌴 [Portfólio do Peter](https://javaijafoi.dev): todos os projetos num lugar só
 - 🎲 [Rolador](https://github.com/javaijafoi/rolador): dados para qualquer RPG de mesa, também em estilo PICO-8
 - 🕹️ [Picotron Arena](https://github.com/javaijafoi/picotron-arcade): modos de arcade num computador de fantasia
 - 👤 [@javaijafoi](https://github.com/javaijafoi) no GitHub
