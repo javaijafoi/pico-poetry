@@ -1,14 +1,14 @@
 {
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "has": [
         {
           "type": "host",
           "value": "pico-poetry.vercel.app"
         }
       ],
-      "destination": "https://poesia.javaijafoi.dev/:path*",
+      "destination": "https://poesia.javaijafoi.dev/$1",
       "statusCode": 301
     }
   ]
