@@ -2,11 +2,11 @@
 
 > 96 poesias de Peter Mac (javaijafoi) num site em estilo PICO-8. Abre numa poesia aleatória, tem índice com busca e gera uma imagem pixelada para compartilhar. Em português do Brasil.
 
-Cada poesia tem link direto (https://pico-poetry.vercel.app/#N). O cartão de compartilhamento aceita troca de cores. Sem backend, sem cadastro.
+Cada poesia tem link direto (https://poesia.javaijafoi.dev/#N). O cartão de compartilhamento aceita troca de cores. Sem backend, sem cadastro.
 
 ## Links
 
-- [Site](https://pico-poetry.vercel.app)
+- [Site](https://poesia.javaijafoi.dev)
 - [Código](https://github.com/javaijafoi/pico-poetry)
-- [Portfólio do Peter](https://javaijafoi.vercel.app)
+- [Portfólio do Peter](https://javaijafoi.dev)
 - [GitHub do Peter](https://github.com/javaijafoi)
